@@ -6,4 +6,14 @@ ItemEvents.modifyTooltips(e => {
     Text.gray('by adding a Quantum Entangled Singularity to the Quantum Ring and terminal.'),
     Text.gray('This will allow you to access your ME system from anywhere in the world.'),
   ]);
+
+  e.add('bigger_ae2:quantum_cell_component', [
+    Text.red('This item has been disabled in favor of Advanced AE\'s Quantum Storage Component.'),
+    Text.red('Please convert this item in any crafting table, as it is no longer craftable or usable.'),
+  ]);
+
+  e.add('megacells:bulk_cell_component', [
+    Text.red('This item has been disabled in favor of Bigger AE2\'s Digital Singularity Cell Component.'),
+    Text.red('Please convert this item in any crafting table, as it is no longer craftable or usable.'),
+  ]);
 });
